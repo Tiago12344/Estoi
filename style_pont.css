@@ -1,0 +1,33 @@
+.coluna{
+  float: left;
+  width: 33.33%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.text, .img1, .text1{
+  margin-left: 20px;
+  float: left;
+  margin-right: 20%;
+  
+}
+.text1{
+  margin-bottom: 150px;
+
+}
+.textri, .textri1{
+  float: right;
+  margin-left: 20px;
+  margin-right: 35%;
+  
+}
+.img2{
+  float: right;
+
+}
+
+.textri1{
+  margin-bottom: 150px;
+}
