@@ -56,9 +56,84 @@ img{
   padding: 10px;
   box-sizing: border-box;
 }
-.column2 {
+
+
+.grafico{
+  width:750px;
+}
+
+.bandeira{
+  width:230px;
+}
+
+.mapa{
+  width :315px;
+}
+
+.img1{
+  width: 250px;
+}
+
+.img2{
+  width: 250px;
+}
+
+@media screen and (max-width: 650px){
+  .column2 {
   float: left;
   width: 25%;
   padding: 10px;
   box-sizing: border-box;
+}
+.grafico{
+  width:350px;
+}
+
+.bandeira{
+  width:150px;
+}
+
+.mapa{
+  width :215px;
+}
+.img1{
+  width: 150px;
+}
+
+.img2{
+  width: 150px;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 400px){
+  .column2 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.grafico{
+  width:150px;
+}
+.bandeira{
+  width:50px;
+}
+
+.mapa{
+  width :115px;
+}
+
+.img1{
+  width: 25px;
+}
+
+.img2{
+  width: 25px;
+}
+
 }
